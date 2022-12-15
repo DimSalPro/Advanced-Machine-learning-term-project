@@ -1,0 +1,27 @@
+{
+  "parameters": {
+    "Hidden Layers": [20, 25, 25, 25, 20],
+    "Hidden Layers Activation Functions": ["relu", "relu", "relu", "relu", "relu"],
+    "Output Layer Activation Function": "sigmoid",
+    "epochs": 30000,
+    "batch size": 32,
+    "learning rate": 0.001,
+    "beta 1": 0.9,
+    "beta 2": 0.999,
+    "epsilon": 0.00000001,
+    "k-fold cross validation": 10,
+    "compute_cost_acc_every_x_epochs": 20,
+    "change_validation_set_every_x_epochs": 10,
+    "weights_init_Gaussian_mean": 0.0,
+    "weights_init_Gaussian_standard_deviation": 1.0,
+    "loss_criterion": "mse"
+  },
+  "file": {
+    "train data directory": "C:\\Users\\cosmote\\PycharmProjects\\AML-FinalProject\\Project\\OPTION2_train_data.csv",
+    "test data directory": "C:\\Users\\cosmote\\PycharmProjects\\AML-FinalProject\\Project\\OPTION2_test_data_wo_labels.csv",
+    "test_data": "yes",
+    "separator": ",",
+    "headers": "True",
+    "normalize": "True"
+  }
+}
